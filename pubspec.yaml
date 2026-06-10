@@ -1,0 +1,69 @@
+name: campus_os
+description: "Campus OS — Unified campus management super-app for Indian college students"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  flutter_bloc: ^8.1.4
+  equatable: ^2.0.5
+
+  # Navigation
+  go_router: ^13.2.0
+
+  # Dependency Injection
+  get_it: ^7.6.7
+
+  # Local Storage (sqflite replaces Isar for Dart 3.12 compatibility)
+  sqflite: ^2.4.1
+  shared_preferences: ^2.3.4
+  path_provider: ^2.1.5
+
+  # Network & Backend
+  supabase_flutter: ^2.3.0
+  flutter_webrtc: ^0.12.0
+
+  # Camera & Image Processing
+  camera: ^0.10.5
+  image_picker: ^1.0.7
+  flutter_image_compress: ^2.3.0
+
+  # ML & OCR
+  google_mlkit_text_recognition: ^0.13.0
+
+  # Notifications
+  flutter_local_notifications: ^17.0.0
+
+  # Permissions
+  permission_handler: ^11.3.0
+
+  # Sharing
+  share_plus: ^7.2.1
+
+  # Utilities
+  intl: ^0.19.0
+  uuid: ^4.5.1
+  dartz: ^0.10.1
+  json_annotation: ^4.8.1
+  path: ^1.9.0
+
+  # QR Code
+  qr_flutter: ^4.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  mocktail: ^1.0.3
+
+flutter:
+  uses-material-design: true
